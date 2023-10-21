@@ -1,0 +1,101 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    padding: 1px;
+ 
+  
+
+}
+
+#hero {
+    background-image: url(/images/lagos.jpeg);
+    background-size: cover;
+    height: 500px;
+  color: #F1FAEE;
+  font-size: 16px;
+  display: flex;justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;   
+}
+
+
+
+#act-head {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+      
+  }
+
+  
+.activities {
+    background-color: #F1FAEE;
+   
+}
+
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    
+}
+
+.act-setion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 30%;
+}
+
+.card_img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #e2e2df;
+    width: 500px;
+    height: 180px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+   
+}
+
+
+
+
+
+
+     
+    
